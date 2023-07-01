@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-block {
+    width: 100%;
+    height: 725px;
+    background: url(../images/Background.jpg);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+    padding-right: 180px;
+}
+
+.p {
+    color: white;
+    font-family: Montserrat;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 206px;
+}
+
+.h1 {
+    color: #FFF;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 79px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.subtitut {
+    color: white;
+    font-size: 27px;
+    font-weight: 300;
+    font-family: Montserrat, sans-serif;
+}
+
+.button {
+    border-radius: 20px;
+    background: white;
+    padding: 26px 22px 26px 22px;
+    margin-top: 32px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+}
+
+.abouth2 {
+    text-align: center;
+    margin: 30px 40px 30px 40px;
+    font-size: 25px;
+    font-family: Montserrat, sans-serif;
+}
+
+.aboutimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.divimg {
+    margin-left: 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Montserrat, sans-serif;
+
+}
+
+.parag {
+    margin-bottom: 40px;
+}
+
+.img {
+    margin-left: 280px;
+}
+
+.course {
+    background: #13202c;
+    padding-bottom: 250px;
+}
+
+.courseskill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 72px 145px;
+}
+
+.line {
+    color: white;
+}
+
+.skill {
+    margin-top: 72px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.htmcssjs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 164px;
+    margin: 116px auto 0;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.htm {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 37px;
+    font-family: Montserrat, sans-serif;
+
+}
+
+.footer {
+    width: 100%;
+    height: 504px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footlog {
+    margin: 81px 50px;
+}
+
+.footdi {
+    display: flexflex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 27px 124px;
+
+}
+
+.footp {
+    margin-top: 15px;
+}
+
+.footimg {
+    width: 40px;
+    height: 40px;
+}
+
+.footimg2 {
+    width: 40px;
+    height: 40px;
+}
+
+.footimg {
+    margin-right: 20px;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+/*Медиа запросы*/
+
+@media screen and (max-width: 1420px) {
+    .aboutme {
+        padding-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1080px)
+{
+    .aboutimg{
+       flex-direction: column;
+    }
+    
+}
